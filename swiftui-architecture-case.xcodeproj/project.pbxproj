@@ -14,6 +14,7 @@
 		CE246A4D25CADF96002A1736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE246A4B25CADF96002A1736 /* LaunchScreen.storyboard */; };
 		CE4DAA8125CAE09B00BAC0E3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4DAA8025CAE09B00BAC0E3 /* HomeView.swift */; };
 		CE4DAA8425CAE0B200BAC0E3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4DAA8325CAE0B200BAC0E3 /* DetailView.swift */; };
+		CE4DAA8925CAE30C00BAC0E3 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4DAA8825CAE30C00BAC0E3 /* HomeRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CE246A4E25CADF96002A1736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE4DAA8025CAE09B00BAC0E3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CE4DAA8325CAE0B200BAC0E3 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CE4DAA8825CAE30C00BAC0E3 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				CE4DAA8025CAE09B00BAC0E3 /* HomeView.swift */,
+				CE4DAA8825CAE30C00BAC0E3 /* HomeRouter.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				CE4DAA8425CAE0B200BAC0E3 /* DetailView.swift in Sources */,
 				CE246A4125CADF93002A1736 /* AppDelegate.swift in Sources */,
 				CE246A4325CADF93002A1736 /* SceneDelegate.swift in Sources */,
+				CE4DAA8925CAE30C00BAC0E3 /* HomeRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
